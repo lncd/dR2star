@@ -2,6 +2,7 @@
 # tat2: time-averaged T2*
 #  glue for 3dcalc 3dTcat and 3dTstat (+ 3dNotes)
 #  to compute time average T2
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
 # default values
 t2_inv=0                       # before volnorm (3dcalc, 3dTstat)

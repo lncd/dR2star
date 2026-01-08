@@ -1,0 +1,30 @@
+{
+    "title": "dR2*",
+    "version": "1.0.0",
+    "keywords": [ "" ],
+    "creators": [
+        {
+            "name": "Larsen, Bart",
+            "orcid": "0000-0001-7896-4342",
+            "affiliation": "University of Minnesota"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Foran, Will",
+            "orcid": "0000-0001-7491-9798",
+            "type": "Researcher"
+        },
+        {
+            "name": "Tervo-Clemmens, Brenden",
+            "orcid": "0000-0002-9557-1126",
+            "affiliation": "University of Minnesota",
+            "type": "Researcher"
+        }
+    ],
+    "access_right": "open",
+    "license": "AGPL-3.0-or-later",
+    "upload_type": "software",
+    "language": "eng",
+    "grants": [ {"id": ""} ]
+}
