@@ -28,8 +28,8 @@ test_update_with_censor { # @test
       censor_file=n/a
       censor_rel='s/.nii.gz//'
       update_with_censor $BATS_TEST_TMPDIR
-      echo "input: $input; censor_file: $censor_file" >&2
-      [[ $censor_file == $BATS_TEST_TMPDIR/fd-0.3.1D ]]
+      echo "input: $input; censor_file: '$censor_file'; test dir: '$BATS_TEST_TMPDIR'" >&2
+      [[ "$censor_file" == "$BATS_TEST_TMPDIR/sub-11924_ses-1_task-rest_run-1_desc-confounds_fd-0.3.1D" ]]
       test -r $censor_file
       [[ $(where1csv $censor_file) == 1,3 ]]
       [[ $input =~ \[1,3]$ ]]

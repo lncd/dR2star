@@ -20,6 +20,9 @@ module load afni
 ~/dR2star/dR2s /path/to/fmriprep
 ```
 
+## Developing
+See tests in `t/`. Run with `make check`
+
 ## Provenance
 Extracted from [lncdtools](https://github.com/lncd/lncdtools) on 2026-01-08.
 ```
